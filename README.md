@@ -48,24 +48,24 @@ explicit epistemic boundaries through validation.
 
 \- Rule-based validation
 
-\## Design philosophy
+## Design philosophy
 
-\This project treats the LLM as an unreliable narrator.
+This project treats the LLM as an unreliable narrator.
 
-\All economic facts are derived deterministically from data.
-\The language model is used only to verbalize those facts under strict rules.
+All economic facts are derived deterministically from data.
+The language model is used only to verbalize those facts under strict rules.
 
-\Key principles:
-\- No causal explanations unless explicitly present in data
-\- No policy intent or market expectation inference
-\- No historical or narrative leakage
-\- Explicit validation of LLM output against numeric constraints
+Key principles:
+- No causal explanations unless explicitly present in data
+- No policy intent or market expectation inference
+- No historical or narrative leakage
+- Explicit validation of LLM output against numeric constraints
 
-\If the model violates these rules, the response is rejected.
+If the model violates these rules, the response is rejected.
 
 
 
-\## Example
+## Example
 
 
 
@@ -74,6 +74,7 @@ explicit epistemic boundaries through validation.
 Ask a macroeconomic question:
 
 > 2009 Economic Conditions
+
 
 
 
